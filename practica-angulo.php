@@ -15,8 +15,8 @@
 	 * @param float $num2 segundo número a sumar
 	 * @return float $resultado resultado de la suma
 	 */
-	 function sumar($num1, $num2){
-	    $resultado = $num1 + $num2;
+	 function sumar($num2, $num1){
+	    $resultado = $num2 + $num1;
 	    return $resultado;
 	 }
 	 /**
